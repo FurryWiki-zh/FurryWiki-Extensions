@@ -1,0 +1,128 @@
+[submodule "AbuseFilter"]
+	path = AbuseFilter
+	url = https://github.com/wikimedia/mediawiki-extensions-AbuseFilter.git
+	branch = REL1_43
+[submodule "CategoryTree"]
+	path = CategoryTree
+	url = https://github.com/wikimedia/mediawiki-extensions-CategoryTree.git
+	branch = REL1_43
+[submodule "Cite"]
+	path = Cite
+	url = https://github.com/wikimedia/mediawiki-extensions-Cite.git
+	branch = REL1_43
+[submodule "CiteThisPage"]
+	path = CiteThisPage
+	url = https://github.com/wikimedia/mediawiki-extensions-CiteThisPage.git
+	branch = REL1_43
+[submodule "CodeEditor"]
+	path = CodeEditor
+	url = https://github.com/wikimedia/mediawiki-extensions-CodeEditor.git
+	branch = REL1_43
+[submodule "ConfirmEdit"]
+	path = ConfirmEdit
+	url = https://github.com/wikimedia/mediawiki-extensions-ConfirmEdit.git
+	branch = REL1_43
+[submodule "DiscussionTools"]
+	path = DiscussionTools
+	url = https://github.com/wikimedia/mediawiki-extensions-DiscussionTools.git
+	branch = REL1_43
+[submodule "Echo"]
+	path = Echo
+	url = https://github.com/wikimedia/mediawiki-extensions-Echo.git
+	branch = REL1_43
+[submodule "Gadgets"]
+	path = Gadgets
+	url = https://github.com/wikimedia/mediawiki-extensions-Gadgets.git
+	branch = REL1_43
+[submodule "ImageMap"]
+	path = ImageMap
+	url = https://github.com/wikimedia/mediawiki-extensions-ImageMap.git
+	branch = REL1_43
+[submodule "InputBox"]
+	path = InputBox
+	url = https://github.com/wikimedia/mediawiki-extensions-InputBox.git
+	branch = REL1_43
+[submodule "Linter"]
+	path = Linter
+	url = https://github.com/wikimedia/mediawiki-extensions-Linter.git
+	branch = REL1_43
+[submodule "LoginNotify"]
+	path = LoginNotify
+	url = https://github.com/wikimedia/mediawiki-extensions-LoginNotify.git
+	branch = REL1_43
+[submodule "Math"]
+	path = Math
+	url = https://github.com/wikimedia/mediawiki-extensions-Math.git
+	branch = REL1_43
+[submodule "MultimediaViewer"]
+	path = MultimediaViewer
+	url = https://github.com/wikimedia/mediawiki-extensions-MultimediaViewer.git
+	branch = REL1_43
+[submodule "Nuke"]
+	path = Nuke
+	url = https://github.com/wikimedia/mediawiki-extensions-Nuke.git
+	branch = REL1_43
+[submodule "OATHAuth"]
+	path = OATHAuth
+	url = https://github.com/wikimedia/mediawiki-extensions-OATHAuth.git
+	branch = REL1_43
+[submodule "PageImages"]
+	path = PageImages
+	url = https://github.com/wikimedia/mediawiki-extensions-PageImages.git
+	branch = REL1_43
+[submodule "ParserFunctions"]
+	path = ParserFunctions
+	url = https://github.com/wikimedia/mediawiki-extensions-ParserFunctions.git
+	branch = REL1_43
+[submodule "PdfHandler"]
+	path = PdfHandler
+	url = https://github.com/wikimedia/mediawiki-extensions-PdfHandler.git
+	branch = REL1_43
+[submodule "Poem"]
+	path = Poem
+	url = https://github.com/wikimedia/mediawiki-extensions-Poem.git
+	branch = REL1_43
+[submodule "ReplaceText"]
+	path = ReplaceText
+	url = https://github.com/wikimedia/mediawiki-extensions-ReplaceText.git
+	branch = REL1_43
+[submodule "Scribunto"]
+	path = Scribunto
+	url = https://github.com/wikimedia/mediawiki-extensions-Scribunto.git
+	branch = REL1_43
+[submodule "SecureLinkFixer"]
+	path = SecureLinkFixer
+	url = https://github.com/wikimedia/mediawiki-extensions-SecureLinkFixer.git
+	branch = REL1_43
+[submodule "SpamBlacklist"]
+	path = SpamBlacklist
+	url = https://github.com/wikimedia/mediawiki-extensions-SpamBlacklist.git
+	branch = REL1_43
+[submodule "SyntaxHighlight_GeSHi"]
+	path = SyntaxHighlight_GeSHi
+	url = https://github.com/wikimedia/mediawiki-extensions-SyntaxHighlight_GeSHi.git
+	branch = REL1_43
+[submodule "TemplateData"]
+	path = TemplateData
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateData.git
+	branch = REL1_43
+[submodule "TextExtracts"]
+	path = TextExtracts
+	url = https://github.com/wikimedia/mediawiki-extensions-TextExtracts.git
+	branch = REL1_43
+[submodule "Thanks"]
+	path = Thanks
+	url = https://github.com/wikimedia/mediawiki-extensions-Thanks.git
+	branch = REL1_43
+[submodule "TitleBlacklist"]
+	path = TitleBlacklist
+	url = https://github.com/wikimedia/mediawiki-extensions-TitleBlacklist.git
+	branch = REL1_43
+[submodule "VisualEditor"]
+	path = VisualEditor
+	url = https://github.com/wikimedia/mediawiki-extensions-VisualEditor.git
+	branch = REL1_43
+[submodule "WikiEditor"]
+	path = WikiEditor
+	url = https://github.com/wikimedia/mediawiki-extensions-WikiEditor.git
+	branch = REL1_43
