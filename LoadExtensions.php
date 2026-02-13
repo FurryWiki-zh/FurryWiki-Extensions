@@ -2,7 +2,7 @@
 
 // 防止在非 MediaWiki 环境（如 IDE 语法检查）下因函数未定义而报错
 if (!function_exists('wfLoadExtension')) {
-    function wfLoadExtension($name, $path = null) {
+    function wfLoadExtension($n, $p = null) {
     }
 }
 
@@ -14,6 +14,8 @@ wfLoadExtension( 'AccountInfo', "$furwikiExtensionsPath/AccountInfo/extension.js
 
 wfLoadExtension( 'AbuseFilter', "$furwikiExtensionsPath/AbuseFilter/extension.json" );
 $wgAbuseFilterEnableBlockedExternalDomain = true;
+
+wfLoadExtension( 'AdvancedSearch', "$furwikiExtensionsPath/AdvancedSearch/extension.json" );
 
 wfLoadExtension( 'AntiSpoof', "$furwikiExtensionsPath/AntiSpoof/extension.json" );
 
