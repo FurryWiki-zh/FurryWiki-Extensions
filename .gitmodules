@@ -126,3 +126,13 @@
 	path = WikiEditor
 	url = https://github.com/wikimedia/mediawiki-extensions-WikiEditor.git
 	branch = REL1_43
+[submodule "AWS"]
+	path = AWS
+	url = https://github.com/edwardspec/mediawiki-aws-s3
+[submodule "AccountInfo"]
+	path = AccountInfo
+	url = https://github.com/wikimedia/mediawiki-extensions-AccountInfo
+	branch = REL1_43
+[submodule "AntiSpoof"]
+	path = AntiSpoof
+	url = https://github.com/wikimedia/mediawiki-extensions-AntiSpoof
