@@ -133,3 +133,7 @@
 	path = AccountInfo
 	url = https://github.com/wikimedia/mediawiki-extensions-AccountInfo
 	branch = REL1_43
+[submodule "AntiSpoof"]
+	path = AntiSpoof
+	url = https://github.com/wikimedia/mediawiki-extensions-AntiSpoof
+	branch = REL1_43
