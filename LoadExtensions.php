@@ -18,7 +18,7 @@ $wgAbuseFilterEnableBlockedExternalDomain = true;
 wfLoadExtension( 'AntiSpoof', "$ysyExtensionsPath/AntiSpoof/extension.json" );
 
 wfLoadExtension( 'AWS', "$furwikiExtensionsPath/AWS/extension.json" );
-require_once "$ysySettingsPath/AWSSettings.php";
+require_once "$furwikiSettingsPath/AWSSettings.php";
 
 // C
 wfLoadExtension( 'CategoryTree', "$furwikiExtensionsPath/CategoryTree/extension.json" );
