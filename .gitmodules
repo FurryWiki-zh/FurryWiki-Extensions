@@ -137,3 +137,11 @@
 	path = AntiSpoof
 	url = https://github.com/wikimedia/mediawiki-extensions-AntiSpoof
 	branch = REL1_43
+[submodule "CirrusSearch"]
+	path = CirrusSearch
+	url = https://github.com/wikimedia/mediawiki-extensions-CirrusSearch
+	branch = REL1_43
+[submodule "AdvancedSearch"]
+	path = AdvancedSearch
+	url = https://github.com/wikimedia/mediawiki-extensions-AdvancedSearch
+	branch = REL1_43
