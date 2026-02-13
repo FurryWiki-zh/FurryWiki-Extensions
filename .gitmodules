@@ -145,3 +145,7 @@
 	path = AdvancedSearch
 	url = https://github.com/wikimedia/mediawiki-extensions-AdvancedSearch
 	branch = REL1_43
+[submodule "Elastica"]
+	path = Elastica
+	url = https://github.com/wikimedia/mediawiki-extensions-Elastica
+	branch = REL1_43

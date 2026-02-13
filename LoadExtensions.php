@@ -51,6 +51,8 @@ wfLoadExtension( 'DiscussionTools', "$furwikiExtensionsPath/DiscussionTools/exte
 // E
 wfLoadExtension( 'Echo', "$furwikiExtensionsPath/Echo/extension.json" );
 
+wfLoadExtension( 'Elastica', "$furwikiExtensionsPath/Elastica/extension.json" );
+
 // G
 wfLoadExtension( 'Gadgets', "$furwikiExtensionsPath/Gadgets/extension.json" );
 
