@@ -10,12 +10,12 @@ $furwikiExtensionsPath = "/www/wwwroot/mw-utils/FurryWiki-Extensions";
 $furwikiSettingsPath = "/www/wwwroot/mw-utils/FurryWiki-Settings";
 
 // A
-wfLoadExtension( 'AccountInfo', "$ysyExtensionsPath/AccountInfo/extension.json" );
+wfLoadExtension( 'AccountInfo', "$furwikiExtensionsPath/AccountInfo/extension.json" );
 
-wfLoadExtension( 'AbuseFilter', "$ysyExtensionsPath/AbuseFilter/extension.json" );
+wfLoadExtension( 'AbuseFilter', "$furwikiExtensionsPath/AbuseFilter/extension.json" );
 $wgAbuseFilterEnableBlockedExternalDomain = true;
 
-wfLoadExtension( 'AntiSpoof', "$ysyExtensionsPath/AntiSpoof/extension.json" );
+wfLoadExtension( 'AntiSpoof', "$furwikiExtensionsPath/AntiSpoof/extension.json" );
 
 wfLoadExtension( 'AWS', "$furwikiExtensionsPath/AWS/extension.json" );
 require_once "$furwikiSettingsPath/AWSSettings.php";
