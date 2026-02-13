@@ -22,10 +22,28 @@ require_once "$furwikiSettingsPath/AWSSettings.php";
 
 // C
 wfLoadExtension( 'CategoryTree', "$furwikiExtensionsPath/CategoryTree/extension.json" );
+
 wfLoadExtension( 'Cite', "$furwikiExtensionsPath/Cite/extension.json" );
+
 wfLoadExtension( 'CiteThisPage', "$furwikiExtensionsPath/CiteThisPage/extension.json" );
+
 wfLoadExtension( 'CodeEditor', "$furwikiExtensionsPath/CodeEditor/extension.json" );
+
 wfLoadExtension( 'ConfirmEdit', "$furwikiExtensionsPath/ConfirmEdit/extension.json" );
+
+wfLoadExtension( 'CirrusSearch', "$furwikiExtensionsPath/CirrusSearch/extension.json" );
+$wgCirrusSearchUseCompletionSuggester = 'yes';
+$wgCirrusSearchPhraseSuggestUseText = true;
+$wgCirrusSearchPhraseSuggestUseOpeningText = true;
+$wgCirrusSearchPrefixSearchStartsWithAnyWord = true;
+$wgCirrusSearchMoreLikeThisAllowedFields = [
+        'title',
+        'text',
+        'auxiliary_text',
+        'opening_text',
+        'headings',
+        'all'
+    ];
 
 // D
 wfLoadExtension( 'DiscussionTools', "$furwikiExtensionsPath/DiscussionTools/extension.json" );
