@@ -22,16 +22,14 @@ wfLoadExtension( 'AntiSpoof', "$furwikiExtensionsPath/AntiSpoof/extension.json" 
 wfLoadExtension( 'AWS', "$furwikiExtensionsPath/AWS/extension.json" );
 require_once "$furwikiSettingsPath/AWSSettings.php";
 
+// B
+wfLoadExtension( 'BetaFeatures', "$furwikiExtensionsPath/BetaFeatures/extension.json" );
+
 // C
 wfLoadExtension( 'CategoryTree', "$furwikiExtensionsPath/CategoryTree/extension.json" );
 
-wfLoadExtension( 'Cite', "$furwikiExtensionsPath/Cite/extension.json" );
-
-wfLoadExtension( 'CiteThisPage', "$furwikiExtensionsPath/CiteThisPage/extension.json" );
-
-wfLoadExtension( 'CodeEditor', "$furwikiExtensionsPath/CodeEditor/extension.json" );
-
-wfLoadExtension( 'ConfirmEdit', "$furwikiExtensionsPath/ConfirmEdit/extension.json" );
+wfLoadExtension( 'CheckUser', "$furwikiExtensionsPath/CheckUser/extension.json" );
+$wgCheckUserEnableSpecialInvestigate = true;
 
 wfLoadExtension( 'CirrusSearch', "$furwikiExtensionsPath/CirrusSearch/extension.json" );
 $wgCirrusSearchUseCompletionSuggester = 'yes';
@@ -46,6 +44,18 @@ $wgCirrusSearchMoreLikeThisAllowedFields = [
         'headings',
         'all'
     ];
+
+wfLoadExtension( 'Cite', "$furwikiExtensionsPath/Cite/extension.json" );
+
+wfLoadExtension( 'CiteThisPage', "$furwikiExtensionsPath/CiteThisPage/extension.json" );
+
+wfLoadExtension( 'Citoid', "$furwikiExtensionsPath/Citoid/extension.json" );
+
+wfLoadExtension( 'cldr', "$furwikiExtensionsPath/cldr/extension.json" );
+
+wfLoadExtension( 'CodeEditor', "$furwikiExtensionsPath/CodeEditor/extension.json" );
+
+wfLoadExtension( 'ConfirmEdit', "$furwikiExtensionsPath/ConfirmEdit/extension.json" );
 
 // D
 wfLoadExtension( 'DiscussionTools', "$furwikiExtensionsPath/DiscussionTools/extension.json" );

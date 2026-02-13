@@ -149,3 +149,18 @@
 	path = Elastica
 	url = https://github.com/wikimedia/mediawiki-extensions-Elastica
 	branch = REL1_43
+[submodule "BetaFeatures"]
+	path = BetaFeatures
+	url = https://github.com/wikimedia/mediawiki-extensions-BetaFeatures
+	branch = REL1_43
+[submodule "CheckUser"]
+	path = CheckUser
+	url = https://github.com/wikimedia/mediawiki-extensions-CheckUser
+	branch = REL1_43
+[submodule "Citoid"]
+	path = Citoid
+	url = https://github.com/wikimedia/mediawiki-extensions-Citoid
+	branch = REL1_43
+[submodule "cldr"]
+	path = cldr
+	url = https://github.com/FurryWiki-zh/mediawiki-extensions-cldr
