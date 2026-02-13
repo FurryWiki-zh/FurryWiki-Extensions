@@ -55,7 +55,19 @@ wfLoadExtension( 'cldr', "$furwikiExtensionsPath/cldr/extension.json" );
 
 wfLoadExtension( 'CodeEditor', "$furwikiExtensionsPath/CodeEditor/extension.json" );
 
+wfLoadExtension( 'CodeMirror', "$furwikiExtensionsPath/CodeMirror/extension.json" );
+
 wfLoadExtension( 'ConfirmEdit', "$furwikiExtensionsPath/ConfirmEdit/extension.json" );
+
+#wfLoadExtension( 'ConfirmEdit/QuestyCaptcha', "$furwikiExtensionsPath/ConfirmEdit/QuestyCaptcha/extension.json" );
+wfLoadExtension( 'ConfirmEdit/Turnstile', "$furwikiExtensionsPath/ConfirmEdit/Turnstile/extension.json" );
+require_once "$furwikiSettingsPath/CaptchaKeys.php";
+$wgCaptchaTriggers['edit'] = true;
+$wgCaptchaTriggers['create'] = true;
+$wgCaptchaTriggers['createtalk'] = true;
+$wgCaptchaTriggers['addurl'] = true;
+$wgCaptchaTriggers['createaccount'] = true;
+$wgCaptchaTriggers['badlogin'] = true;
 
 // D
 wfLoadExtension( 'DiscussionTools', "$furwikiExtensionsPath/DiscussionTools/extension.json" );

@@ -164,3 +164,7 @@
 [submodule "cldr"]
 	path = cldr
 	url = https://github.com/FurryWiki-zh/mediawiki-extensions-cldr
+[submodule "CodeMirror"]
+	path = CodeMirror
+	url = https://github.com/wikimedia/mediawiki-extensions-CodeMirror
+	branch = REL1_43
