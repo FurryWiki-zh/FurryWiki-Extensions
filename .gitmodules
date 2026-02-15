@@ -174,8 +174,8 @@
 [submodule "CookieWarning"]
 	path = CookieWarning
 	url = https://github.com/wikimedia/mediawiki-extensions-CookieWarning
-[submodule "CountdownClock"]
-	path = CountdownClock
+[submodule "CountDownClock"]
+	path = CountDownClock
 	url = https://github.com/wikimedia/mediawiki-extensions-CountdownClock
 [submodule "CreatedPagesList"]
 	path = CreatedPagesList
