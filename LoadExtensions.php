@@ -69,6 +69,20 @@ $wgCaptchaTriggers['addurl'] = true;
 $wgCaptchaTriggers['createaccount'] = true;
 $wgCaptchaTriggers['badlogin'] = true;
 
+wfLoadExtension( 'ContributionScores', "$ysyExtensionsPath/ContributionScores/extension.json" );
+$wgContribScoreIgnoreBots = true;
+$wgContribScoreIgnoreBlockedUsers = true;
+$wgContribScoreIgnoreUsernames = [];
+$wgContribScoresUseRealName = false;
+
+wfLoadExtension( 'CookieWarning', "$ysyExtensionsPath/CookieWarning/extension.json" );
+$wgCookieWarningEnabled = true;
+$wgCookieWarningGeoIPLookup = 'js';
+
+wfLoadExtension( 'CountDownClock', "$ysyExtensionsPath/CountDownClock/extension.json" );
+
+wfLoadExtension( 'CreatedPagesList', "$ysyExtensionsPath/CreatedPagesList/extension.json" );
+
 // D
 wfLoadExtension( 'DiscussionTools', "$furwikiExtensionsPath/DiscussionTools/extension.json" );
 

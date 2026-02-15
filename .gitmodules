@@ -168,3 +168,15 @@
 	path = CodeMirror
 	url = https://github.com/wikimedia/mediawiki-extensions-CodeMirror
 	branch = REL1_43
+[submodule "ContributionScores"]
+	path = ContributionScores
+	url = https://github.com/wikimedia/mediawiki-extensions-ContributionScores
+[submodule "CookieWarning"]
+	path = CookieWarning
+	url = https://github.com/wikimedia/mediawiki-extensions-CookieWarning
+[submodule "CountdownClock"]
+	path = CountdownClock
+	url = https://github.com/wikimedia/mediawiki-extensions-CountdownClock
+[submodule "CreatedPagesList"]
+	path = CreatedPagesList
+	url = https://github.com/wikimedia/mediawiki-extensions-CreatedPagesList
