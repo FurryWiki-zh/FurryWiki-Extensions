@@ -191,3 +191,7 @@
 	path = Disambiguator
 	url = https://github.com/wikimedia/mediawiki-extensions-Disambiguator
 	branch = REL1_43
+[submodule "EmailAuth"]
+	path = EmailAuth
+	url = https://github.com/wikimedia/mediawiki-extensions-EmailAuth
+	branch = REL1_43

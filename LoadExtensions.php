@@ -87,6 +87,8 @@ wfLoadExtension( 'CreatedPagesList', "$furwikiExtensionsPath/CreatedPagesList/ex
 wfLoadExtension( 'DisableAccount', "$furwikiExtensionsPath/DisableAccount/extension.json" );
 
 wfLoadExtension( 'DiscussionTools', "$furwikiExtensionsPath/DiscussionTools/extension.json" );
+$wgDiscussionToolsEnable = true;
+$wgDiscussionToolsEnablePermalinksBackend = true;
 
 wfLoadExtension( 'Disambiguator', "$furwikiExtensionsPath/Disambiguator/extension.json" );
 
@@ -94,8 +96,12 @@ wfLoadExtension( 'DynamicPageList4', "$furwikiExtensionsPath/DynamicPageList4/ex
 
 // E
 wfLoadExtension( 'Echo', "$furwikiExtensionsPath/Echo/extension.json" );
+/// Echo增强设置
+#$wgEchoEmailFooterAddress = '福瑞百科，Furry亚文化共建信息库';
 
 wfLoadExtension( 'Elastica', "$furwikiExtensionsPath/Elastica/extension.json" );
+
+wfLoadExtension( 'EmailAuth', "$furwikiExtensionsPath/EmailAuth/extension.json" );
 
 // G
 wfLoadExtension( 'Gadgets', "$furwikiExtensionsPath/Gadgets/extension.json" );
