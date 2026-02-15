@@ -84,7 +84,13 @@ wfLoadExtension( 'CountDownClock', "$furwikiExtensionsPath/CountDownClock/extens
 wfLoadExtension( 'CreatedPagesList', "$furwikiExtensionsPath/CreatedPagesList/extension.json" );
 
 // D
+wfLoadExtension( 'DisableAccount', "$furwikiExtensionsPath/DisableAccount/extension.json" );
+
 wfLoadExtension( 'DiscussionTools', "$furwikiExtensionsPath/DiscussionTools/extension.json" );
+
+wfLoadExtension( 'Disambiguator', "$furwikiExtensionsPath/Disambiguator/extension.json" );
+
+wfLoadExtension( 'DynamicPageList4', "$furwikiExtensionsPath/DynamicPageList4/extension.json" );
 
 // E
 wfLoadExtension( 'Echo', "$furwikiExtensionsPath/Echo/extension.json" );

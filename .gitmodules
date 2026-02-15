@@ -180,3 +180,14 @@
 [submodule "CreatedPagesList"]
 	path = CreatedPagesList
 	url = https://github.com/wikimedia/mediawiki-extensions-CreatedPagesList
+[submodule "DynamicPageList4"]
+	path = DynamicPageList4
+	url = https://github.com/Universal-Omega/DynamicPageList4
+	branch = REL1_43
+[submodule "DisableAccount"]
+	path = DisableAccount
+	url = https://github.com/wikimedia/mediawiki-extensions-DisableAccount
+[submodule "Disambiguator"]
+	path = Disambiguator
+	url = https://github.com/wikimedia/mediawiki-extensions-Disambiguator
+	branch = REL1_43
