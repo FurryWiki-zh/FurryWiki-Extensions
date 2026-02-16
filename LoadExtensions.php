@@ -103,12 +103,34 @@ wfLoadExtension( 'Elastica', "$furwikiExtensionsPath/Elastica/extension.json" );
 
 wfLoadExtension( 'EmailAuth', "$furwikiExtensionsPath/EmailAuth/extension.json" );
 
+wfLoadExtension( 'EventLogging', "$furwikiExtensionsPath/EventLogging/extension.json" );
+$wgEventLoggingBaseUri = '/beacon/event';
+#$wgEventLoggingServiceUri = '/beacon/intake-analytics';
+$wgEventLoggingStreamNames = true;
+
+// F
+wfLoadExtension( 'FileImporter', "$furwikiExtensionsPath/FileImporter/extension.json" );
+/// FileImporter
+$wgFileImporterShowInputScreen = true;
+$wgFileImporterRequiredRight = 'import';
+
 // G
 wfLoadExtension( 'Gadgets', "$furwikiExtensionsPath/Gadgets/extension.json" );
 
+// H
+wfLoadExtension( 'HeaderTabs', "$furwikiExtensionsPath/HeaderTabs/extension.json" );
+
 // I
 wfLoadExtension( 'ImageMap', "$furwikiExtensionsPath/ImageMap/extension.json" );
+
 wfLoadExtension( 'InputBox', "$furwikiExtensionsPath/InputBox/extension.json" );
+
+wfLoadExtension( 'Interwiki', "$furwikiExtensionsPath/Interwiki/extension.json" );
+
+wfLoadExtension( 'InterwikiExtracts', "$furwikiExtensionsPath/InterwikiExtracts/extension.json" );
+
+// J
+wfLoadExtension( 'JsonConfig', "$furwikiExtensionsPath/JsonConfig/extension.json" );
 
 // L
 wfLoadExtension( 'Linter', "$furwikiExtensionsPath/Linter/extension.json" );

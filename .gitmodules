@@ -195,3 +195,26 @@
 	path = EmailAuth
 	url = https://github.com/wikimedia/mediawiki-extensions-EmailAuth
 	branch = REL1_43
+[submodule "EventLogging"]
+	path = EventLogging
+	url = https://github.com/wikimedia/mediawiki-extensions-EventLogging
+	branch = REL1_43
+[submodule "FileImporter"]
+	path = FileImporter
+	url = https://github.com/wikimedia/mediawiki-extensions-FileImporter
+	branch = REL1_43
+[submodule "HeaderTabs"]
+	path = HeaderTabs
+	url = https://github.com/wikimedia/mediawiki-extensions-HeaderTabs
+[submodule "Interwiki"]
+	path = Interwiki
+	url = https://github.com/wikimedia/mediawiki-extensions-Interwiki
+	branch = REL1_43
+[submodule "InterwikiExtracts"]
+	path = InterwikiExtracts
+	url = https://github.com/wikimedia/mediawiki-extensions-InterwikiExtracts
+	branch = REL1_43
+[submodule "JsonConfig"]
+	path = JsonConfig
+	url = https://github.com/wikimedia/mediawiki-extensions-JsonConfig
+	branch = REL1_43
