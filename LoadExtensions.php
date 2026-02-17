@@ -322,6 +322,9 @@ $wgUseFFmpeg2 = false;
 
 wfLoadExtension( 'TitleBlacklist', "$furwikiExtensionsPath/TitleBlacklist/extension.json" );
 
+wfLoadExtension( 'TwoColConflict', "$furwikiExtensionsPath/TwoColConflict/extension.json" );
+$wgTwoColConflictUseInline = false;
+
 // V
 wfLoadExtension( 'VisualEditor', "$furwikiExtensionsPath/VisualEditor/extension.json" );
 

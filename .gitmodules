@@ -296,3 +296,7 @@
 	path = TimedMediaHandler
 	url = https://github.com/wikimedia/mediawiki-extensions-TimedMediaHandler
 	branch = REL1_43
+[submodule "TwoColConflict"]
+	path = TwoColConflict
+	url = https://github.com/wikimedia/mediawiki-extensions-TwoColConflict
+	branch = REL1_43
