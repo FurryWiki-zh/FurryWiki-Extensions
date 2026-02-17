@@ -287,6 +287,39 @@ $wgExtractsRemoveClasses = [
 
 wfLoadExtension( 'Thanks', "$furwikiExtensionsPath/Thanks/extension.json" );
 
+wfLoadExtension( 'TimedMediaHandler', "$ysyExtensionsPath/TimedMediaHandler/extension.json" );
+$wgFFmpegLocation = '/usr/bin/ffmpeg';
+$wgMinimumVideoPlayerSize = 200;
+$wgEnableTranscode = true;
+$wgJobTypesExcludedFromDefaultQueue[] = 'webVideoTranscode';
+$wgJobTypesExcludedFromDefaultQueue[] = 'webVideoTranscodePrioritized';
+$wgTranscodeBackgroundTimeLimit = 3600 * 8;
+$wgTranscodeBackgroundMemoryLimit = 2 * 1024 * 1024 * 1024; // 2GB avconv, ffmpeg2theora mmap resources so virtual memory needs to be high enough
+$wgTranscodeBackgroundSizeLimit = 4 * 1024 * 1024; // 4GB
+$wgFFmpegThreads = 1;
+$wgTimedTextNS = 710;
+$wgTimedTextForeignNamespaces = [];
+$wgEnabledTranscodeSet = [
+    '160p.webm' => false,
+    '240p.webm' => false,
+    '360p.webm' => true,
+    '480p.webm' => true,
+    '720p.webm' => true,
+    '1080p.webm' => true,
+];
+$wgEnabledAudioTranscodeSet = [
+    'ogg' => true,    // ogg+vorbis
+    'opus' => false,  // ogg+opus
+    'mp3' => true,    // raw mp3
+    'm4a' => true,    // mp4+aac (mp4a.40.5)
+];
+// If mp3 source assets can be ingested:
+$wgTmhEnableMp3Uploads = true;
+// If mp4 source assets can be ingested:
+$wgTmhEnableMp4Uploads = true;
+// If you use ffmpeg 2, it can be set to true
+$wgUseFFmpeg2 = false;
+
 wfLoadExtension( 'TitleBlacklist', "$furwikiExtensionsPath/TitleBlacklist/extension.json" );
 
 // V

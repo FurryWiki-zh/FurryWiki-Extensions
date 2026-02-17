@@ -292,3 +292,7 @@
 [submodule "TemplateStylesExtender"]
 	path = TemplateStylesExtender
 	url = https://github.com/octfx/mediawiki-extensions-TemplateStylesExtender
+[submodule "TimedMediaHandler"]
+	path = TimedMediaHandler
+	url = https://github.com/wikimedia/mediawiki-extensions-TimedMediaHandler
+	branch = REL1_43
