@@ -275,3 +275,6 @@
 	path = SandboxLink
 	url = https://github.com/wikimedia/mediawiki-extensions-SandboxLink
 	branch = REL1_43
+[submodule "SimpleTooltip"]
+	path = SimpleTooltip
+	url = https://github.com/gesinn-it-pub/SimpleTooltip

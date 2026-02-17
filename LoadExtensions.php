@@ -242,6 +242,8 @@ wfLoadExtension( 'SecureLinkFixer', "$furwikiExtensionsPath/SecureLinkFixer/exte
 
 wfLoadExtension( 'ShortDescription', "$furwikiExtensionsPath/ShortDescription/extension.json" );
 
+wfLoadExtension( 'SimpleTooltip', "$furwikiExtensionsPath/SimpleTooltip/extension.json" );
+
 wfLoadExtension( 'SpamBlacklist', "$furwikiExtensionsPath/SpamBlacklist/extension.json" );
 
 wfLoadExtension( 'SyntaxHighlight_GeSHi', "$furwikiExtensionsPath/SyntaxHighlight_GeSHi/extension.json" );
