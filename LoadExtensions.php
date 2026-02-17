@@ -351,4 +351,3 @@ wfLoadExtension( 'Widgets', "$furwikiExtensionsPath/Widgets/extension.json" );
 wfLoadExtension( 'WikiEditor', "$furwikiExtensionsPath/WikiEditor/extension.json" );
 // 启用WikiEditor扩展提供的Beta工具栏（新版编辑工具栏），提升编辑体验
 $wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
-$wgDefaultUserOptions['usebetatoolbar'] = 1; // user option provided by WikiEditor extension
