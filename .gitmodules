@@ -300,3 +300,7 @@
 	path = TwoColConflict
 	url = https://github.com/wikimedia/mediawiki-extensions-TwoColConflict
 	branch = REL1_43
+[submodule "VEForAll"]
+	path = VEForAll
+	url = https://github.com/wikimedia/mediawiki-extensions-VEForAll
+	branch = REL1_43

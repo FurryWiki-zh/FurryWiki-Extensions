@@ -326,6 +326,8 @@ wfLoadExtension( 'TwoColConflict', "$furwikiExtensionsPath/TwoColConflict/extens
 $wgTwoColConflictUseInline = false;
 
 // V
+wfLoadExtension( 'VEForAll', "$furwikiExtensionsPath/VEForAll/extension.json" );
+
 wfLoadExtension( 'VisualEditor', "$furwikiExtensionsPath/VisualEditor/extension.json" );
 
 // W
