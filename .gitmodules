@@ -246,3 +246,28 @@
 	path = OAuth
 	url = https://github.com/wikimedia/mediawiki-extensions-OAuth
 	branch = REL1_43
+[submodule "OrphanedTalkPages"]
+	path = OrphanedTalkPages
+	url = https://github.com/wikimedia/mediawiki-extensions-OrphanedTalkPages
+	branch = REL1_43
+[submodule "PinyinSort"]
+	path = PinyinSort
+	url = https://git.qiuwen.net.cn/Fork/mediawiki-extensions-PinyinSort
+[submodule "Popups"]
+	path = Popups
+	url = https://github.com/wikimedia/mediawiki-extensions-Popups
+	branch = REL1_43
+[submodule "Renameuser"]
+	path = Renameuser
+	url = https://github.com/wikimedia/mediawiki-extensions-Renameuser
+	branch = REL1_43
+[submodule "RegexFunctions"]
+	path = RegexFunctions
+	url = https://github.com/wikimedia/mediawiki-extensions-RegexFunctions
+[submodule "RevisionSlider"]
+	path = RevisionSlider
+	url = https://github.com/wikimedia/mediawiki-extensions-RevisionSlider
+	branch = REL1_43
+[submodule "ShortDescription"]
+	path = ShortDescription
+	url = https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription

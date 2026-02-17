@@ -175,19 +175,75 @@ $wgMWOAuthSecureTokenTransfer = true;
 $wgOAuth2PrivateKey = "/www/wwwroot/mw-utils/FurryWiki-OauthKeys/private.key";
 $wgOAuth2PublicKey = "/www/wwwroot/mw-utils/FurryWiki-OauthKeys/public.key";
 
+wfLoadExtension( 'OrphanedTalkPages', "$furwikiExtensionsPath/OrphanedTalkPages/extension.json" );
+
 // P
 wfLoadExtension( 'PageImages', "$furwikiExtensionsPath/PageImages/extension.json" );
+$wgPageImagesExpandOpenSearchXml = true;
+$wgPageImagesAPIDefaultLicense = 'any';
+
 wfLoadExtension( 'ParserFunctions', "$furwikiExtensionsPath/ParserFunctions/extension.json" );
+
+/// 为了使linter工作，使Parsoid作为扩展加载，添加接入点
+wfLoadExtension( 'Parsoid', "$IP/vendor/wikimedia/parsoid/extension.json" );
+$wgParsoidSettings = [
+    'useSelser' => true,
+    'linting' => true,
+];
+$wgVisualEditorParsoidAutoConfig = false; #(for Linter, to make work)
+$wgVirtualRestConfig = [
+	'paths' => [],
+	'modules' => [
+		'parsoid' => [
+			'url' => 'https://youshou.wiki/rest.php',
+			'domain' => 'youshou.wiki',
+			'forwardCookies' => true,
+			'restbaseCompat' => false,
+			'timeout' => 30,
+		],
+	],
+	'global' => [
+		'timeout' => 360,
+		'forwardCookies' => false,
+		'HTTPProxy' => null,
+	],
+];
+
 wfLoadExtension( 'PdfHandler', "$furwikiExtensionsPath/PdfHandler/extension.json" );
+
+wfLoadExtension( 'PinyinSort', "$furwikiExtensionsPath/PinyinSort/extension.json" );
+/// 拼音分类
+$wgCategoryCollation = 'pinyin-noprefix';
+
 wfLoadExtension( 'Poem', "$furwikiExtensionsPath/Poem/extension.json" );
 
+wfLoadExtension( 'Popups', "$furwikiExtensionsPath/Popups/extension.json" );
+$wgPopupsHideOptInOnPreferencesPage = true;
+$wgPopupsReferencePreviewsBetaFeature = false;
+
 // R
+wfLoadExtension( 'Renameuser', "$furwikiExtensionsPath/Renameuser/extension.json" );
+
+wfLoadExtension( 'RegexFunctions', "$furwikiExtensionsPath/RegexFunctions/extension.json" );
+
 wfLoadExtension( 'ReplaceText', "$furwikiExtensionsPath/ReplaceText/extension.json" );
 
+wfLoadExtension( 'RevisionSlider', "$furwikiExtensionsPath/RevisionSlider/extension.json" );
+
 // S
+wfLoadExtension( 'SandboxLink', "$furwikiExtensionsPath/SandboxLink/extension.json" );
+
 wfLoadExtension( 'Scribunto', "$furwikiExtensionsPath/Scribunto/extension.json" );
+$wgScribuntoDefaultEngine = 'luasandbox';
+$wgScribuntoUseGeSHi = true;
+$wgScribuntoUseCodeEditor = true;
+
 wfLoadExtension( 'SecureLinkFixer', "$furwikiExtensionsPath/SecureLinkFixer/extension.json" );
+
+wfLoadExtension( 'ShortDescription', "$furwikiExtensionsPath/ShortDescription/extension.json" );
+
 wfLoadExtension( 'SpamBlacklist', "$furwikiExtensionsPath/SpamBlacklist/extension.json" );
+
 wfLoadExtension( 'SyntaxHighlight_GeSHi', "$furwikiExtensionsPath/SyntaxHighlight_GeSHi/extension.json" );
 
 // T
