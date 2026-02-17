@@ -133,14 +133,37 @@ wfLoadExtension( 'InterwikiExtracts', "$furwikiExtensionsPath/InterwikiExtracts/
 wfLoadExtension( 'JsonConfig', "$furwikiExtensionsPath/JsonConfig/extension.json" );
 
 // L
+wfLoadExtension( 'LabeledSectionTransclusion', "$furwikiExtensionsPath/LabeledSectionTransclusion/extension.json" );
+
 wfLoadExtension( 'Linter', "$furwikiExtensionsPath/Linter/extension.json" );
+
+wfLoadExtension( 'Lockdown', "$furwikiExtensionsPath/Lockdown/extension.json" );
+require_once "$furwikiSettingsPath/Lockdowns.php";
+
 wfLoadExtension( 'LoginNotify', "$furwikiExtensionsPath/LoginNotify/extension.json" );
+/// 登录告警
+$wgLoginNotifyAttemptsKnownIP = 5;
+$wgLoginNotifyAttemptsNewIP = 3;
 
 // M
+wfLoadExtension( 'MassEditRegex', "$furwikiExtensionsPath/MassEditRegex/extension.json" );
+
+wfLoadExtension( 'MassMessage', "$furwikiExtensionsPath/MassMessage/extension.json" );
+
 wfLoadExtension( 'Math', "$furwikiExtensionsPath/Math/extension.json" );
+// Math
+$wgDefaultUserOptions['math'] = 'mathjax';
+$wgMathValidModes = ['mathjax'];
+
+wfLoadExtension( 'MediaSearch', "$furwikiExtensionsPath/MediaSearch/extension.json" );
+
+wfLoadExtension( 'MultiBoilerplate', "$furwikiExtensionsPath/MultiBoilerplate/extension.json" );
+
 wfLoadExtension( 'MultimediaViewer', "$furwikiExtensionsPath/MultimediaViewer/extension.json" );
 
 // N
+wfLoadExtension( 'NewSignupPage', "$furwikiExtensionsPath/NewSignupPage/extension.json" );
+
 wfLoadExtension( 'Nuke', "$furwikiExtensionsPath/Nuke/extension.json" );
 
 // O

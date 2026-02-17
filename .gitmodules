@@ -218,3 +218,27 @@
 	path = JsonConfig
 	url = https://github.com/wikimedia/mediawiki-extensions-JsonConfig
 	branch = REL1_43
+[submodule "LabeledSectionTransclusion"]
+	path = LabeledSectionTransclusion
+	url = https://github.com/wikimedia/mediawiki-extensions-LabeledSectionTransclusion
+	branch = REL1_43
+[submodule "Lockdown"]
+	path = Lockdown
+	url = https://github.com/wikimedia/mediawiki-extensions-Lockdown
+[submodule "MassMessage"]
+	path = MassMessage
+	url = https://github.com/wikimedia/mediawiki-extensions-MassMessage
+	branch = REL1_43
+[submodule "MassEditRegex"]
+	path = MassEditRegex
+	url = https://github.com/wikimedia/mediawiki-extensions-MassEditRegex
+[submodule "MediaSearch"]
+	path = MediaSearch
+	url = https://github.com/wikimedia/mediawiki-extensions-MediaSearch
+	branch = REL1_43
+[submodule "MultiBoilerplate"]
+	path = MultiBoilerplate
+	url = https://github.com/wikimedia/mediawiki-extensions-MultiBoilerplate
+[submodule "NewSignupPage"]
+	path = NewSignupPage
+	url = https://github.com/wikimedia/mediawiki-extensions-NewSignupPage
