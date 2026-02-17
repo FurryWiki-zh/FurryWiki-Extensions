@@ -271,3 +271,7 @@
 [submodule "ShortDescription"]
 	path = ShortDescription
 	url = https://github.com/StarCitizenTools/mediawiki-extensions-ShortDescription
+[submodule "SandboxLink"]
+	path = SandboxLink
+	url = https://github.com/wikimedia/mediawiki-extensions-SandboxLink
+	branch = REL1_43
