@@ -169,6 +169,12 @@ wfLoadExtension( 'Nuke', "$furwikiExtensionsPath/Nuke/extension.json" );
 // O
 wfLoadExtension( 'OATHAuth', "$furwikiExtensionsPath/OATHAuth/extension.json" );
 
+wfLoadExtension( 'OAuth', "$furwikiExtensionsPath/OAuth/extension.json" );
+/// Oauth 秘钥
+$wgMWOAuthSecureTokenTransfer = true;
+$wgOAuth2PrivateKey = "/www/wwwroot/mw-utils/FurryWiki-OauthKeys/private.key";
+$wgOAuth2PublicKey = "/www/wwwroot/mw-utils/FurryWiki-OauthKeys/public.key";
+
 // P
 wfLoadExtension( 'PageImages', "$furwikiExtensionsPath/PageImages/extension.json" );
 wfLoadExtension( 'ParserFunctions', "$furwikiExtensionsPath/ParserFunctions/extension.json" );

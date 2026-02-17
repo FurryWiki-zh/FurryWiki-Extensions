@@ -242,3 +242,7 @@
 [submodule "NewSignupPage"]
 	path = NewSignupPage
 	url = https://github.com/wikimedia/mediawiki-extensions-NewSignupPage
+[submodule "OAuth"]
+	path = OAuth
+	url = https://github.com/wikimedia/mediawiki-extensions-OAuth
+	branch = REL1_43
