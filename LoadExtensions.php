@@ -249,8 +249,20 @@ wfLoadExtension( 'SpamBlacklist', "$furwikiExtensionsPath/SpamBlacklist/extensio
 wfLoadExtension( 'SyntaxHighlight_GeSHi', "$furwikiExtensionsPath/SyntaxHighlight_GeSHi/extension.json" );
 
 // T
+wfLoadExtension( 'TabberNeue', "$furwikiExtensionsPath/TabberNeue/extension.json" );
+$wgTabberNeueEnableAnimation = true;
+$wgTabberNeueUpdateLocationOnTabChange = true;
+
 wfLoadExtension( 'TemplateData', "$furwikiExtensionsPath/TemplateData/extension.json" );
+
+wfLoadExtension( 'TemplateSandbox', "$furwikiExtensionsPath/TemplateSandbox/extension.json" );
+
+wfLoadExtension( 'TemplateStyles', "$furwikiExtensionsPath/TemplateStyles/extension.json" );
+
+wfLoadExtension( 'TemplateStylesExtender', "$furwikiExtensionsPath/TemplateStylesExtender/extension.json" );
+
 wfLoadExtension( 'TextExtracts', "$furwikiExtensionsPath/TextExtracts/extension.json" );
+
 wfLoadExtension( 'Thanks', "$furwikiExtensionsPath/Thanks/extension.json" );
 wfLoadExtension( 'TitleBlacklist', "$furwikiExtensionsPath/TitleBlacklist/extension.json" );
 

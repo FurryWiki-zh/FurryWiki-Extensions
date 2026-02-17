@@ -278,3 +278,17 @@
 [submodule "SimpleTooltip"]
 	path = SimpleTooltip
 	url = https://github.com/gesinn-it-pub/SimpleTooltip
+[submodule "TabberNeue"]
+	path = TabberNeue
+	url = https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue
+[submodule "TemplateSandbox"]
+	path = TemplateSandbox
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateSandbox
+	branch = REL1_43
+[submodule "TemplateStyles"]
+	path = TemplateStyles
+	url = https://github.com/wikimedia/mediawiki-extensions-TemplateStyles
+	branch = REL1_43
+[submodule "TemplateStylesExtender"]
+	path = TemplateStylesExtender
+	url = https://github.com/octfx/mediawiki-extensions-TemplateStylesExtender
