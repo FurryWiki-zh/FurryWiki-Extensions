@@ -262,8 +262,31 @@ wfLoadExtension( 'TemplateStyles', "$furwikiExtensionsPath/TemplateStyles/extens
 wfLoadExtension( 'TemplateStylesExtender', "$furwikiExtensionsPath/TemplateStylesExtender/extension.json" );
 
 wfLoadExtension( 'TextExtracts', "$furwikiExtensionsPath/TextExtracts/extension.json" );
+$wgExtractsRemoveClasses = [
+    'table',
+    'div',
+    'figure',
+    'script',
+    'input',
+    'style',
+    'ul.gallery',
+    '.mw-editsection',
+    'sup.reference',
+    'ol.references',
+    '.error',
+    '.nomobile',
+    '.noprint',
+    '.noexcerpt',
+    '.sortkey',
+    '.metadata',
+    'span.coordinates',
+    'span.geo-multi-punct',
+    'span.geo-nondefault',
+    '#coordinates',
+];
 
 wfLoadExtension( 'Thanks', "$furwikiExtensionsPath/Thanks/extension.json" );
+
 wfLoadExtension( 'TitleBlacklist', "$furwikiExtensionsPath/TitleBlacklist/extension.json" );
 
 // V
