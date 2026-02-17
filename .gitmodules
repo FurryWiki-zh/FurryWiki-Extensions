@@ -304,3 +304,6 @@
 	path = VEForAll
 	url = https://github.com/wikimedia/mediawiki-extensions-VEForAll
 	branch = REL1_43
+[submodule "Widgets"]
+	path = Widgets
+	url = https://github.com/wikimedia/mediawiki-extensions-Widgets
