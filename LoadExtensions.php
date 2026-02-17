@@ -287,7 +287,7 @@ $wgExtractsRemoveClasses = [
 
 wfLoadExtension( 'Thanks', "$furwikiExtensionsPath/Thanks/extension.json" );
 
-wfLoadExtension( 'TimedMediaHandler', "$ysyExtensionsPath/TimedMediaHandler/extension.json" );
+wfLoadExtension( 'TimedMediaHandler', "$furwikiExtensionsPath/TimedMediaHandler/extension.json" );
 $wgFFmpegLocation = '/usr/bin/ffmpeg';
 $wgMinimumVideoPlayerSize = 200;
 $wgEnableTranscode = true;
