@@ -329,6 +329,12 @@ $wgTwoColConflictUseInline = false;
 wfLoadExtension( 'UploadsLink', "$furwikiExtensionsPath/UploadsLink/extension.json" );
 
 wfLoadExtension( 'UploadWizard', "$furwikiExtensionsPath/UploadWizard/extension.json" );
+$wgUploadWizardConfig['uwLanguages'] = [
+    'zh-hans' => '简体中文',
+    'zh-hant' => '繁体中文',
+    'en'      => 'English',
+    'ja'      => '日本語',
+];
 
 // V
 wfLoadExtension( 'VEForAll', "$furwikiExtensionsPath/VEForAll/extension.json" );
