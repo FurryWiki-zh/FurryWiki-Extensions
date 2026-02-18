@@ -121,7 +121,6 @@
 [submodule "VisualEditor"]
 	path = VisualEditor
 	url = https://github.com/FurryWiki-zh/VisualEditor
-	branch = REL1_43
 [submodule "WikiEditor"]
 	path = WikiEditor
 	url = https://github.com/wikimedia/mediawiki-extensions-WikiEditor.git
