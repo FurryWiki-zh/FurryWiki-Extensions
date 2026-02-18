@@ -306,3 +306,10 @@
 [submodule "Widgets"]
 	path = Widgets
 	url = https://github.com/wikimedia/mediawiki-extensions-Widgets
+[submodule "UploadsLink"]
+	path = UploadsLink
+	url = https://github.com/wikimedia/mediawiki-extensions-UploadsLink
+	branch = REL1_43
+[submodule "UploadWizard"]
+	path = UploadWizard
+	url = https://github.com/FurryWiki-zh/mediawiki-extensions-UploadWizard

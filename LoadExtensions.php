@@ -325,6 +325,11 @@ wfLoadExtension( 'TitleBlacklist', "$furwikiExtensionsPath/TitleBlacklist/extens
 wfLoadExtension( 'TwoColConflict', "$furwikiExtensionsPath/TwoColConflict/extension.json" );
 $wgTwoColConflictUseInline = false;
 
+// U
+wfLoadExtension( 'UploadsLink', "$furwikiExtensionsPath/UploadsLink/extension.json" );
+
+wfLoadExtension( 'UploadWizard', "$furwikiExtensionsPath/UploadWizard/extension.json" );
+
 // V
 wfLoadExtension( 'VEForAll', "$furwikiExtensionsPath/VEForAll/extension.json" );
 
