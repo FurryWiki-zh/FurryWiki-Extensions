@@ -19,6 +19,8 @@ wfLoadExtension( 'AdvancedSearch', "$furwikiExtensionsPath/AdvancedSearch/extens
 
 wfLoadExtension( 'AntiSpoof', "$furwikiExtensionsPath/AntiSpoof/extension.json" );
 
+wfLoadExtension( 'ArticleMetaDescription', "$furwikiExtensionsPath/ArticleMetaDescription/extension.json" );
+
 wfLoadExtension( 'AWS', "$furwikiExtensionsPath/AWS/extension.json" );
 require_once "$furwikiSettingsPath/AWSSettings.php";
 
