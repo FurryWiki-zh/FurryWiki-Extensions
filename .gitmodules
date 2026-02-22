@@ -32,7 +32,7 @@
 	branch = REL1_43
 [submodule "Gadgets"]
 	path = Gadgets
-	url = https://github.com/wikimedia/mediawiki-extensions-Gadgets.git
+	url = https://github.com/FurryWiki-zh/mediawiki-extensions-Gadgets.git
 	branch = REL1_43
 [submodule "ImageMap"]
 	path = ImageMap
