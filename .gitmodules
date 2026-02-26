@@ -316,3 +316,7 @@
 [submodule "ArticleMetaDescription"]
 	path = ArticleMetaDescription
 	url = https://github.com/wikimedia/mediawiki-extensions-ArticleMetaDescription
+[submodule "CommonsMetadata"]
+	path = CommonsMetadata
+	url = https://github.com/wikimedia/mediawiki-extensions-CommonsMetadata
+	branch = REL1_43

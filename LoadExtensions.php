@@ -59,6 +59,8 @@ wfLoadExtension( 'CodeEditor', "$furwikiExtensionsPath/CodeEditor/extension.json
 
 wfLoadExtension( 'CodeMirror', "$furwikiExtensionsPath/CodeMirror/extension.json" );
 
+wfLoadExtension( 'CommonSMetadata', "$furwikiExtensionsPath/CommonSMetadata/extension.json" );
+
 wfLoadExtension( 'ConfirmEdit', "$furwikiExtensionsPath/ConfirmEdit/extension.json" );
 
 #wfLoadExtension( 'ConfirmEdit/QuestyCaptcha', "$furwikiExtensionsPath/ConfirmEdit/QuestyCaptcha/extension.json" );
