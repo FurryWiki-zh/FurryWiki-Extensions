@@ -320,3 +320,6 @@
 	path = CommonsMetadata
 	url = https://github.com/wikimedia/mediawiki-extensions-CommonsMetadata
 	branch = REL1_43
+[submodule "CreateUserPage"]
+	path = CreateUserPage
+	url = https://github.com/wikimedia/mediawiki-extensions-CreateUserPage

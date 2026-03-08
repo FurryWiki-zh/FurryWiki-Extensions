@@ -87,6 +87,8 @@ wfLoadExtension( 'CountDownClock', "$furwikiExtensionsPath/CountDownClock/extens
 
 wfLoadExtension( 'CreatedPagesList', "$furwikiExtensionsPath/CreatedPagesList/extension.json" );
 
+wfLoadExtension( 'CreateUserPage', "$furwikiExtensionsPath/CreateUserPage/extension.json" );
+
 // D
 wfLoadExtension( 'DisableAccount', "$furwikiExtensionsPath/DisableAccount/extension.json" );
 
@@ -101,7 +103,7 @@ wfLoadExtension( 'DynamicPageList4', "$furwikiExtensionsPath/DynamicPageList4/ex
 // E
 wfLoadExtension( 'Echo', "$furwikiExtensionsPath/Echo/extension.json" );
 /// Echo增强设置
-#$wgEchoEmailFooterAddress = '福瑞百科，Furry亚文化共建信息库';
+$wgEchoEmailFooterAddress = '福瑞百科，开放的亚文化专题百科';
 
 wfLoadExtension( 'Elastica', "$furwikiExtensionsPath/Elastica/extension.json" );
 
@@ -167,6 +169,8 @@ wfLoadExtension( 'MultimediaViewer', "$furwikiExtensionsPath/MultimediaViewer/ex
 
 // N
 wfLoadExtension( 'NewSignupPage', "$furwikiExtensionsPath/NewSignupPage/extension.json" );
+$wgNewSignupPageToSURL = 'https://furrywiki.org.cn/wiki/FWIKI:TOS';
+$wgNewSignupPagePPURL = 'https://furrywiki.org.cn/wiki/FWIKI:PIPP';
 
 wfLoadExtension( 'Nuke', "$furwikiExtensionsPath/Nuke/extension.json" );
 
