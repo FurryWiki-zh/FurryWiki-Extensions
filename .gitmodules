@@ -240,7 +240,7 @@
 	url = https://github.com/wikimedia/mediawiki-extensions-MultiBoilerplate
 [submodule "NewSignupPage"]
 	path = NewSignupPage
-	url = https://github.com/wikimedia/mediawiki-extensions-NewSignupPage
+	url = https://github.com/qiuwenbaike/mediawiki-extensions-NewSignupPage
 [submodule "OAuth"]
 	path = OAuth
 	url = https://github.com/wikimedia/mediawiki-extensions-OAuth
