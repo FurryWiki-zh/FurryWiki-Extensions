@@ -87,7 +87,6 @@ wfLoadExtension( 'CountDownClock', "$furwikiExtensionsPath/CountDownClock/extens
 
 wfLoadExtension( 'CreatedPagesList', "$furwikiExtensionsPath/CreatedPagesList/extension.json" );
 
-wfLoadExtension( 'CreateUserPage', "$furwikiExtensionsPath/CreateUserPage/extension.json" );
 wfLoadExtension( 'CreateUserPage', "$ysyExtensionsPath/CreateUserPage/extension.json" );
 $wgCreateUserPage_AutoCreateUser = 'New user page';
 $wgCreateUserPage_PageContent ='{{用户页}}';
