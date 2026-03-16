@@ -323,3 +323,18 @@
 [submodule "CreateUserPage"]
 	path = CreateUserPage
 	url = https://github.com/wikimedia/mediawiki-extensions-CreateUserPage
+[submodule "SemanticMediaWiki"]
+	path = SemanticMediaWiki
+	url = https://github.com/FurryWiki-zh/SemanticMediaWiki
+[submodule "SemanticResultFormats"]
+	path = SemanticResultFormats
+	url = https://github.com/FurryWiki-zh/SemanticResultFormats
+[submodule "SemanticExtraSpecialProperties"]
+	path = SemanticExtraSpecialProperties
+	url = https://github.com/FurryWiki-zh/SemanticExtraSpecialProperties
+[submodule "SemanticScribunto"]
+	path = SemanticScribunto
+	url = https://github.com/FurryWiki-zh/SemanticScribunto
+[submodule "SemanticDrilldown"]
+	path = SemanticDrilldown
+	url = https://github.com/FurryWiki-zh/SemanticDrilldown
