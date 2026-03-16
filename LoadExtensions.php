@@ -250,7 +250,7 @@ $wgScribuntoUseCodeEditor = true;
 
 wfLoadExtension( 'SecureLinkFixer', "$furwikiExtensionsPath/SecureLinkFixer/extension.json" );
 
-wfLoadExtension( 'SemanticMediaWiki', "$ysyExtensionsPath/SemanticMediaWiki/extension.json" );
+wfLoadExtension( 'SemanticMediaWiki', "$furwikiExtensionsPath/SemanticMediaWiki/extension.json" );
 enableSemantics('furrywiki.org.cn');
 /// SMW语义维基配置及插件配置、调优
 #$smwgEnabledFulltextSearch = true;
@@ -264,11 +264,11 @@ $wgExtensionFunctions[] = function() use ( &$wgGroupPermissions ) {
     unset( $wgGroupPermissions['smwadministrator'] );
     unset( $wgGroupPermissions['smwcurator'] );
 };
-wfLoadExtension( 'SemanticScribunto', "$ysyExtensionsPath/SemanticScribunto/extension.json" );
+wfLoadExtension( 'SemanticScribunto', "$furwikiExtensionsPath/SemanticScribunto/extension.json" );
 
-wfLoadExtension( 'SemanticDrilldown', "$ysyExtensionsPath/SemanticDrilldown/extension.json" );
+wfLoadExtension( 'SemanticDrilldown', "$furwikiExtensionsPath/SemanticDrilldown/extension.json" );
 
-wfLoadExtension( 'SemanticResultFormats', "$ysyExtensionsPath/SemanticResultFormats/extension.json" );
+wfLoadExtension( 'SemanticResultFormats', "$furwikiExtensionsPath/SemanticResultFormats/extension.json" );
 
 wfLoadExtension( 'ShortDescription', "$furwikiExtensionsPath/ShortDescription/extension.json" );
 
