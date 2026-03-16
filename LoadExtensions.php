@@ -251,7 +251,6 @@ $wgScribuntoUseCodeEditor = true;
 wfLoadExtension( 'SecureLinkFixer', "$furwikiExtensionsPath/SecureLinkFixer/extension.json" );
 
 wfLoadExtension( 'SemanticMediaWiki', "$furwikiExtensionsPath/SemanticMediaWiki/extension.json" );
-enableSemantics('furrywiki.org.cn');
 /// SMW语义维基配置及插件配置、调优
 #$smwgEnabledFulltextSearch = true;
 $smwgQMaxLimit = 5000;
