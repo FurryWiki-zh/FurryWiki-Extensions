@@ -159,6 +159,10 @@ wfLoadExtension( 'MassEditRegex', "$furwikiExtensionsPath/MassEditRegex/extensio
 wfLoadExtension( 'MassMessage', "$furwikiExtensionsPath/MassMessage/extension.json" );
 
 wfLoadExtension( 'Math', "$furwikiExtensionsPath/Math/extension.json" );
+
+wfLoadExtension( 'MatomoAnalytics', "$furwikiExtensionsPath/MatomoAnalytics/extension.json" );
+require_once "$furwikiSettingsPath/MatomoSettings.php";
+
 // Math
 $wgDefaultUserOptions['math'] = 'mathjax';
 $wgMathValidModes = ['mathjax'];
