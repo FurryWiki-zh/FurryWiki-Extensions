@@ -338,3 +338,6 @@
 [submodule "SemanticDrilldown"]
 	path = SemanticDrilldown
 	url = https://github.com/FurryWiki-zh/SemanticDrilldown
+[submodule "MatomoAnalytics"]
+	path = MatomoAnalytics
+	url = https://github.com/TopRealm/MatomoAnalytics
