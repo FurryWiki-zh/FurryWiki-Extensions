@@ -341,3 +341,7 @@
 [submodule "MatomoAnalytics"]
 	path = MatomoAnalytics
 	url = https://github.com/TopRealm/MatomoAnalytics
+[submodule "ArticleCreationWorkflow"]
+	path = ArticleCreationWorkflow
+	url = https://github.com/wikimedia/mediawiki-extensions-ArticleCreationWorkflow
+	branch = REL1_43

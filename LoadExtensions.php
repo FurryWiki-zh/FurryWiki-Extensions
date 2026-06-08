@@ -19,6 +19,9 @@ wfLoadExtension( 'AdvancedSearch', "$furwikiExtensionsPath/AdvancedSearch/extens
 
 wfLoadExtension( 'AntiSpoof', "$furwikiExtensionsPath/AntiSpoof/extension.json" );
 
+wfLoadExtension( 'ArticleCreationWorkflow', "$furwikiExtensionsPath/ArticleCreationWorkflow/extension.json" );
+$wgArticleCreationLandingPage = 'FurryWiki:条目创建向导/navigate';
+
 wfLoadExtension( 'ArticleMetaDescription', "$furwikiExtensionsPath/ArticleMetaDescription/extension.json" );
 
 wfLoadExtension( 'AWS', "$furwikiExtensionsPath/AWS/extension.json" );
