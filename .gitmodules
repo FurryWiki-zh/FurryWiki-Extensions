@@ -186,6 +186,7 @@
 [submodule "DisableAccount"]
 	path = DisableAccount
 	url = https://github.com/wikimedia/mediawiki-extensions-DisableAccount
+	branch = REL1_43
 [submodule "Disambiguator"]
 	path = Disambiguator
 	url = https://github.com/wikimedia/mediawiki-extensions-Disambiguator
