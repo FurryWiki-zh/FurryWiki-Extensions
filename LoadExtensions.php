@@ -24,6 +24,13 @@ $wgArticleCreationLandingPage = 'FurryWiki:条目创建向导/navigate';
 
 wfLoadExtension( 'ArticleMetaDescription', "$furwikiExtensionsPath/ArticleMetaDescription/extension.json" );
 
+wfLoadExtension( 'Avatar', "$furwikiExtensionsPath/Avatar/extension.json" );
+$wgDefaultAvatar = 'https://image.youshou.wiki/avatars/default/default.gif';
+$wgMaxAvatarResolution = 512;
+$wgDefaultAvatarRes = 256;
+$wgAvatarEnableS3  = true;
+require_once "$furwikiSettingsPath/AvatarS3Settings.php";
+
 wfLoadExtension( 'AWS', "$furwikiExtensionsPath/AWS/extension.json" );
 require_once "$furwikiSettingsPath/AWSSettings.php";
 
