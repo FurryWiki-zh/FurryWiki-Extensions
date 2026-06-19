@@ -349,3 +349,6 @@
 [submodule "Avatar"]
 	path = Avatar
 	url = https://github.com/TopRealm/MW-Avatar
+[submodule "PageForms"]
+	path = PageForms
+	url = https://github.com/wikimedia/mediawiki-extensions-PageForms

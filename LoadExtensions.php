@@ -202,6 +202,11 @@ $wgOAuth2PublicKey = "/www/wwwroot/mw-utils/FurryWiki-OauthKeys/public.key";
 wfLoadExtension( 'OrphanedTalkPages', "$furwikiExtensionsPath/OrphanedTalkPages/extension.json" );
 
 // P
+wfLoadExtension( 'PageForms', "$furwikiExtensionsPath/PageForms/extension.json" );
+# PageForms 设置
+$wgPageFormsMaxLocalAutocompleteValues = 500;
+$wgPageFormsRedLinksCheckOnlyLocalProps = true;
+
 wfLoadExtension( 'PageImages', "$furwikiExtensionsPath/PageImages/extension.json" );
 $wgPageImagesExpandOpenSearchXml = true;
 $wgPageImagesAPIDefaultLicense = 'any';
