@@ -352,3 +352,7 @@
 [submodule "PageForms"]
 	path = PageForms
 	url = https://github.com/wikimedia/mediawiki-extensions-PageForms
+[submodule "NewUserMessage"]
+	path = NewUserMessage
+	url = https://github.com/wikimedia/mediawiki-extensions-NewUserMessage
+	branch = REL1_43

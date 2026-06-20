@@ -188,6 +188,8 @@ wfLoadExtension( 'NewSignupPage', "$furwikiExtensionsPath/NewSignupPage/extensio
 $wgNewSignupPageToSURL = 'https://furrywiki.org.cn/wiki/FWIKI:TOS';
 $wgNewSignupPagePPURL = 'https://furrywiki.org.cn/wiki/FWIKI:PIPP';
 
+wfLoadExtension( 'NewUserMessage', "$furwikiExtensionsPath/NewUserMessage/extension.json" );
+
 wfLoadExtension( 'Nuke', "$furwikiExtensionsPath/Nuke/extension.json" );
 
 // O
