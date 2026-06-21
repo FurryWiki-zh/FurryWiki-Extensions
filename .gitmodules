@@ -356,3 +356,6 @@
 	path = NewUserMessage
 	url = https://github.com/wikimedia/mediawiki-extensions-NewUserMessage
 	branch = REL1_43
+[submodule "Thumbro"]
+	path = Thumbro
+	url = https://github.com/StarCitizenTools/mediawiki-extensions-Thumbro

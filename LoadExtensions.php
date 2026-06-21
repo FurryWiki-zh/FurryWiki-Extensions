@@ -338,6 +338,9 @@ $wgExtractsRemoveClasses = [
 
 wfLoadExtension( 'Thanks', "$furwikiExtensionsPath/Thanks/extension.json" );
 
+wfLoadExtension( 'Thumbro' , "$furwikiExtensionsPath/Thumbro/extension.json" );
+$wgThumbroExposeTestPage = true;
+
 wfLoadExtension( 'TimedMediaHandler', "$furwikiExtensionsPath/TimedMediaHandler/extension.json" );
 $wgFFmpegLocation = '/usr/bin/ffmpeg';
 $wgMinimumVideoPlayerSize = 200;
