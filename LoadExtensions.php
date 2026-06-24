@@ -91,7 +91,7 @@ $wgContribScoresUseRealName = false;
 
 wfLoadExtension( 'CookieWarning', "$furwikiExtensionsPath/CookieWarning/extension.json" );
 $wgCookieWarningEnabled = true;
-$wgCookieWarningGeoIPLookup = 'js';
+$wgCookieWarningGeoIPLookup = "none";
 
 wfLoadExtension( 'CountDownClock', "$furwikiExtensionsPath/CountDownClock/extension.json" );
 
