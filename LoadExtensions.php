@@ -73,8 +73,8 @@ wfLoadExtension( 'CommonsMetadata', "$furwikiExtensionsPath/CommonsMetadata/exte
 
 wfLoadExtension( 'ConfirmEdit', "$furwikiExtensionsPath/ConfirmEdit/extension.json" );
 
-#wfLoadExtension( 'ConfirmEdit/QuestyCaptcha', "$furwikiExtensionsPath/ConfirmEdit/QuestyCaptcha/extension.json" );
-wfLoadExtension( 'ConfirmEdit/Turnstile', "$furwikiExtensionsPath/ConfirmEdit/Turnstile/extension.json" );
+wfLoadExtension( 'ConfirmEdit/FancyCaptcha', "$furwikiExtensionsPath/ConfirmEdit/FancyCaptcha/extension.json" );
+$wgCaptchaClass = 'FancyCaptcha';
 require_once "$furwikiSettingsPath/CaptchaKeys.php";
 $wgCaptchaTriggers['edit'] = true;
 $wgCaptchaTriggers['create'] = true;
