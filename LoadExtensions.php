@@ -40,6 +40,9 @@ wfLoadExtension( 'BetaFeatures', "$furwikiExtensionsPath/BetaFeatures/extension.
 // C
 wfLoadExtension( 'CategoryTree', "$furwikiExtensionsPath/CategoryTree/extension.json" );
 
+wfLoadExtension( 'Chart', "$furwikiExtensionsPath/Chart/extension.json" );
+$wgChartServiceUrl = 'https://chart-renderer.qiuwen.net.cn/v1/chart/render';
+
 wfLoadExtension( 'CheckUser', "$furwikiExtensionsPath/CheckUser/extension.json" );
 $wgCheckUserEnableSpecialInvestigate = true;
 
@@ -169,15 +172,16 @@ wfLoadExtension( 'MassEditRegex', "$furwikiExtensionsPath/MassEditRegex/extensio
 wfLoadExtension( 'MassMessage', "$furwikiExtensionsPath/MassMessage/extension.json" );
 
 wfLoadExtension( 'Math', "$furwikiExtensionsPath/Math/extension.json" );
-
-wfLoadExtension( 'MatomoAnalytics', "$furwikiExtensionsPath/MatomoAnalytics/extension.json" );
-require_once "$furwikiSettingsPath/MatomoSettings.php";
-
 // Math
 $wgDefaultUserOptions['math'] = 'mathjax';
 $wgMathValidModes = ['mathjax'];
 
+wfLoadExtension( 'MatomoAnalytics', "$furwikiExtensionsPath/MatomoAnalytics/extension.json" );
+require_once "$furwikiSettingsPath/MatomoSettings.php";
+
 wfLoadExtension( 'MediaSearch', "$furwikiExtensionsPath/MediaSearch/extension.json" );
+
+wfLoadExtension( 'Mermaid', "$furwikiExtensionsPath/Mermaid/extension.json" );
 
 wfLoadExtension( 'MultiBoilerplate', "$furwikiExtensionsPath/MultiBoilerplate/extension.json" );
 

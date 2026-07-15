@@ -359,3 +359,10 @@
 [submodule "Thumbro"]
 	path = Thumbro
 	url = https://github.com/StarCitizenTools/mediawiki-extensions-Thumbro
+[submodule "Mermaid"]
+	path = Mermaid
+	url = https://github.com/SemanticMediaWiki/Mermaid
+[submodule "Chart"]
+	path = Chart
+	url = https://github.com/wikimedia/mediawiki-extensions-Chart
+	branch = REL1_43
