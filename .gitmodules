@@ -366,3 +366,6 @@
 	path = Chart
 	url = https://github.com/wikimedia/mediawiki-extensions-Chart
 	branch = REL1_43
+[submodule "QQConnect"]
+	path = QQConnect
+	url = https://github.com/TopRealm/mediawiki-extensions-QQConnect

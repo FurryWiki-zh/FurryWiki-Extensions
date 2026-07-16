@@ -256,6 +256,10 @@ wfLoadExtension( 'Popups', "$furwikiExtensionsPath/Popups/extension.json" );
 $wgPopupsHideOptInOnPreferencesPage = true;
 $wgPopupsReferencePreviewsBetaFeature = false;
 
+// Q
+wfLoadExtension( 'QQConnect', "$furwikiExtensionsPath/QQConnect/extension.json" );
+require_once "$furwikiSettingsPath/QQConnectSettings.php";
+
 // R
 wfLoadExtension( 'Renameuser', "$furwikiExtensionsPath/Renameuser/extension.json" );
 
