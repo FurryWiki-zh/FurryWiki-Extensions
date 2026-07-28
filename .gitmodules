@@ -232,6 +232,7 @@
 [submodule "MassEditRegex"]
 	path = MassEditRegex
 	url = https://github.com/wikimedia/mediawiki-extensions-MassEditRegex
+	branch = REL1_43
 [submodule "MediaSearch"]
 	path = MediaSearch
 	url = https://github.com/wikimedia/mediawiki-extensions-MediaSearch
