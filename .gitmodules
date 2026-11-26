@@ -371,3 +371,7 @@
 [submodule "QQConnect"]
 	path = QQConnect
 	url = https://github.com/TopRealm/mediawiki-extensions-QQConnect
+[submodule "RelatedArticles"]
+	path = RelatedArticles
+	url = https://github.com/wikimedia/mediawiki-extensions-RelatedArticles
+	branch = REL1_43

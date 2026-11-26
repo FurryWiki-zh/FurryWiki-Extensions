@@ -282,6 +282,10 @@ wfLoadExtension( 'QQConnect', "$furwikiExtensionsPath/QQConnect/extension.json" 
 require_once "$furwikiSettingsPath/QQConnectSettings.php";
 
 // R
+wfLoadExtension( 'RelatedArticles', "$furwikiExtensionsPath/RelatedArticles/extension.json" );
+$wgRelatedArticlesUseCirrusSearch = true;
+$wgRelatedArticlesUseCirrusSearchApiUrl = '/api.php';
+
 wfLoadExtension( 'Renameuser', "$furwikiExtensionsPath/Renameuser/extension.json" );
 
 wfLoadExtension( 'RegexFunctions', "$furwikiExtensionsPath/RegexFunctions/extension.json" );
